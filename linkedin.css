@@ -1,0 +1,102 @@
+.button {
+    text-decoration: none;
+    color: black;
+    margin-top: 5rem;
+}
+
+.button-set {
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 81px;
+    position: absolute;
+    left: 50%;
+    margin-left: 16rem;
+}
+
+.premium {
+    color: rgb(238, 125, 20);
+    text-decoration: none;
+    margin-right: 9rem;
+}
+
+.selfie {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.selfie-color {
+    background-color: #5DADE2 ;
+}
+
+.op-sm {
+    opacity: 50%;
+    font-size: 13px;
+    margin-top: 5rem;
+}
+
+.col-sm {
+    font-size: 13px;
+    color: #5DADE2;
+}
+
+.col-sm2 {
+    font-size: 15px;
+    color: #5DADE2;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.name {
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.number {
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+.under-name {
+    opacity: 50%;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.under-name2 {
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.linkedin {
+    color: #5DADE2;
+    font-size: 15px;
+}
+
+.link2 {
+    text-decoration: none;
+    color:#3b85b6;
+    opacity: 75%;
+}
+
+.button2 {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    border: 1px solid #aaabab;
+}

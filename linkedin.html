@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--fontawesome link-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="linkedin.css">
+
+    <title>Linkedin</title>
+</head>
+<body>
+    <!--Navbar Start-->
+    <nav class="navbar navbar-light bg-light p-0 small fixed-top">
+        <div class="container p-0 small"></div>
+            <div class="container-fluid">
+                <a class="navbar-brand" style="margin-left: 9rem;" href="#">
+                    <img src="images/linkedin.png" alt="logo-png" width="40" height="40" 
+                    class="d-inline-block align-text-top rounded">
+                </a>
+                <form class="d-flex me-auto">
+                    <input class="form-control ms-1 rounded mt-1" 
+                    style="height: 2rem; font-size: medium;" type="search" 
+                    placeholder="Arama Yap" aria-label="Search">
+                </form>
+                <!--Buttons-->
+                <ul class="list-inline me-auto">
+                    <!--home Button-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i class="fa-solid fa-house fs-5 button-set"></i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span >Ana Sayfa</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Network Button-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i class="fa-solid fa-people-arrows button-set" style="font-size: 18px;"></i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span >Network</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Is Ilanlari Button-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i class="fa-solid fa-briefcase button-set" style="font-size: 18px;"></i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span>Is ilanlari</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Mesajlasma Button-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i class="fa-regular fa-comment button-set ms-4" style="font-size: 18px;"></i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span>Mesajlasma</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Bildirimler Button-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i class="fa-regular fa-bell button-set" style="font-size: 18px;"></i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span>Bildirimler</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Profile-->
+                    <li class="list-inline-item me-3">
+                        <ul class="list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i 
+                                        class="fa-regular fa-user" 
+                                        style="font-size: 18px; margin-top: 0.5rem; margin-left: 0.25rem;">
+                                    </i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span>Ben</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--line-->
+                    <li class="list-inline-item vertical">
+                    </li>
+
+                    <!--Isler Menu-->
+                    <li class="list-inline-item ms-3">
+                        <ul class="list-inline mt-3">
+                            <li class="list-inline-item">
+                                <a class="button" href="linkedin.html">
+                                    <i 
+                                        class="fa-solid fa-list-ul"
+                                        style="font-size: 18px; margin-top: 0.5rem; margin-left: 0.25rem;">
+                                    </i>
+                                </a>
+                            </li>
+                            <li style="text-decoration: none; color: black;" class="list-inlin-item">
+                                <a class="button" href="linkedin.html">
+                                    <span>Isler</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="#" class="link">
+                    <span class="premium" >Premium Ucretsiz Deneyin</span>
+                </a>
+                
+                <!--Navbar-End-->
+            </div>
+        </div>
+    </nav>
+
+    <!--Row Start-->
+    <div class="row" style="margin-top: 5rem;">
+        <!--Left Bar-->
+        <div class="col-sm-2">
+            <div class="card rounded" style="width: 16rem; margin-left: 9.5rem; margin-top: 2rem;">
+                <header class="selfie-color rounded-top" style="height: 75px;">
+                </header>
+
+                <!--!!absolute div etkilemeden bagımsız hareket alanı saglar!!-->
+                <img class="selfie" style="margin-left: 5.5rem; position: absolute;
+                margin-top:2.3rem;" 
+                src="images/self.jpeg" alt="self-profile">
+
+                <div class="card-body mt-4">
+                    <h6 class="card-title" style="text-align: center;">
+                        <strong>Oktay Altunkaya</strong>, Hosgeldiniz!
+                    </h6>
+                    <a href="#" style="margin-left: 4.2rem; text-decoration: none;">
+                        <small> Fotograf Ekle</small>
+                    </a>
+                    <hr>
+                    <small>Profilinizi Kimler Goruntuledi:</small> 
+                    <span style="margin-left: 0.1rem; color: #5DADE2;">
+                        <small><strong>46</strong></small>
+                    </span>
+                
+                    <small>Yayınınız Icın Goruntulenme:</small> 
+                    <span style="margin-left: 0.1rem; color: #5DADE2;">
+                        <small><strong>99</strong></small>
+                    </span>
+                    <hr>
+                    <span style="margin-left: 0.5rem;">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Ogelerim
+                    </span>
+                </div>
+            </div>
+
+            <div class="card rounded" style="width: 16rem; margin-left: 9.5rem; margin-top: 2rem;">
+                <div class="card-body">
+                    <h6>
+                        <strong>Sayfalarım</strong>
+                    </h6>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img style="height: 60px; width: 60px;" class="rounded" 
+                            src="https://picsum.photos/id/237/200/300" alt="syf-img">
+                        </div>
+                        <div class="col-sm-8">
+                            <span style="font-size: 14px;"><strong>Kodluyoruz&Patika</strong></span>
+                            <span class="op-sm">Sayfa Bildirimleri:</span>
+                            <span class="col-sm"><strong>21</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--En Yeni Card-->
+            <div class="card rounded" style="width: 16rem; margin-left: 9.5rem; margin-top: 2rem;">
+                <div class="card-body">
+                    <h6>
+                        <strong>En Yeni</strong>
+                    </h6>
+                    <hr>
+                    <!--tags-->
+                    <ul class="list-inline ms-3">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>Kodluyoruz</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline ms-3">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>Front-End</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline ms-3">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>HTML</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline ms-3">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>CSS</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="link">
+                        <span class="col-sm2 ms-3"><strong>Gruplar</strong></span> 
+                    </a>
+                    <br>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span class="col-sm2 ms-3"><strong> Etkinlikler </strong></span>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-solid fa-plus" style="margin-left: 6rem;"></i>
+                        </li>
+                    </ul>
+                   
+
+                    <a href="#" class="link">
+                        <span class="col-sm2 ms-3"><strong>Takip Edilen Hashtagler</strong></span> 
+                    </a>
+
+                    <ul class="list-inline ms-3 mt-2">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>Fenerbahçe</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline ms-3 mt-2">
+                        <li class="list-inline-item">
+                            <small> <i class="fa-solid fa-hashtag"></i></small>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="link" href="">
+                                <small>Bitcoin</small>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <hr>
+                    <a href="#" class="link">
+                        <span class="col-sm2 ms-3"><strong>Daha Fazla Kesfet</strong></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Post1-->
+        <div class="col-sm-6">
+            <div class="card rounded" style="width: 32.5rem; margin-left: 13rem; margin-top: 2rem;">
+                <i class="fa-solid fa-pen" style="position: absolute; margin-top: 1.6rem; margin-left: 0.7rem;"></i>
+                <div class="card-body">
+                    <form class="d-flex">
+                        <input class="form-control ms-4" type="search" placeholder="Bir Gonderi Baslat" aria-label="Search">
+                    </form>
+                    
+                    <ul class="list-inline mt-4">
+                        <!--media-->
+                        <button class="ms-2 button2">
+                            <li class="list-inline-item">
+                                <i class="fa-regular fa-image"></i>
+                            </li>
+
+                            <li class="list-inline-item">
+                                Fotograflar
+                            </li>
+                        </button>
+
+                        <!--video-->
+                        <button class="ms-4 button2">
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-play"></i>
+                            </li>
+
+                            <li class="list-inline-item">
+                                Video
+                            </li>
+                        </button>
+
+                        <!--etkinlik-->
+                        <button class="ms-4 button2">
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </li>
+
+                            <li class="list-inline-item">
+                                Etkinlik
+                            </li>
+                        </button>
+
+                        <!--Yazi yaz-->
+                        <button class="ms-4 button2">
+                            <li class="list-inline-item">
+                                <i class="fa-regular fa-file-lines"></i>
+                            </li>
+
+                            <li class="list-inline-item">
+                                Yazi Yaz
+                            </li>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="width: 32.5rem; margin-left: 13rem; margin-top: 2rem;">
+                <div class="row">
+                    <div class="col-sm-1" style="margin-left: 1rem; margin-top: 1rem;">
+                        <img class="img"
+                        src="https://picsum.photos/id/101/200/300" alt="pic1">
+                    </div>
+    
+                    <div class="col-sm-6 mt-3">
+                        <span style="margin-left: 2rem;"><strong>Jamie Stud</strong></span>
+                        <br>
+                        <span class="under-name2" style="margin-left: 2rem;">I Teach How to Play CS:GO 2</span>
+                        <br>
+                        <p class="under-name2" style="margin-left: 2rem;">25hr</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <span style="margin-left: 9rem;">
+                            <i style="font-size: 21px; margin-top: 1rem;" class="fa-solid fa-ellipsis"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div style="margin-left: 1rem;">
+                    Counter Strike 2
+                </div>
+
+                <img class="w-100 mt-1" style="height: 350px;" src="images/cs-go.jpeg" alt="post-1">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-gun"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <span style="color:#008ce9;"><strong>917</strong> Likes</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <!--like-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-heart"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Like
+                                </li>
+                            </button>
+    
+                            <!--thumb-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-up
+                                </li>
+                            </button>
+    
+                            <!--thumb-down-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-down"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-down
+                                </li>
+                            </button>
+    
+                            <!--gun-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-gun"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Fire!!
+                                </li>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Post2-->
+            <div class="card" style="width: 32.5rem; margin-left: 13rem; margin-top: 2rem;">
+                <div class="row">
+                    <div class="col-sm-1" style="margin-left: 1rem; margin-top: 1rem;">
+                        <img class="img"
+                        src="https://picsum.photos/id/166/200/300" alt="pic1">
+                    </div>
+    
+                    <div class="col-sm-6 mt-3">
+                        <span style="margin-left: 2rem;"><strong>Alex Cosolova</strong></span>
+                        <br>
+                        <span class="under-name2" style="margin-left: 2rem;">I Teach How to Play CS:GO 2</span>
+                        <br>
+                        <p class="under-name2" style="margin-left: 2rem;">25hr</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <span style="margin-left: 9rem;">
+                            <i style="font-size: 21px; margin-top: 1rem;" class="fa-solid fa-ellipsis"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div style="margin-left: 1rem;">
+                    POV image on game
+                </div>
+
+                <img class="w-100 mt-1" style="height: 350px;" src="images/CSGO-2.jpeg" alt="post-1">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-gun"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <span style="color:#008ce9;"><strong>1007</strong> Likes</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <!--like-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-heart"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Like
+                                </li>
+                            </button>
+    
+                            <!--thumb-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-up
+                                </li>
+                            </button>
+    
+                            <!--thumb-down-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-down"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-down
+                                </li>
+                            </button>
+    
+                            <!--gun-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-gun"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Fire!!
+                                </li>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <!--Post3-->
+            <div class="card" style="width: 32.5rem; margin-left: 13rem; margin-top: 2rem;">
+                <div class="row">
+                    <div class="col-sm-1" style="margin-left: 1rem; margin-top: 1rem;">
+                        <img class="img"
+                        src="https://picsum.photos/id/178/200/300" alt="pic1">
+                    </div>
+    
+                    <div class="col-sm-6 mt-3">
+                        <span style="margin-left: 2rem;"><strong>Jenifer Bailey</strong></span>
+                        <br>
+                        <span class="under-name2" style="margin-left: 2rem;">I Teach How to Play CS:GO 2</span>
+                        <br>
+                        <p class="under-name2" style="margin-left: 2rem;">25hr</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <span style="margin-left: 9rem;">
+                            <i style="font-size: 21px; margin-top: 1rem;" class="fa-solid fa-ellipsis"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div style="margin-left: 1rem;">
+                    Our Map and Design
+                </div>
+
+                <img class="w-100 mt-1" style="height: 350px;" src="images/csgo2gorsel.jpeg" alt="post-1">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-gun"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <span style="color:#008ce9;"><strong>814</strong> Likes</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                            <!--like-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-heart"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Like
+                                </li>
+                            </button>
+    
+                            <!--thumb-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-up
+                                </li>
+                            </button>
+    
+                            <!--thumb-down-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-regular fa-thumbs-down"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Thumbs-down
+                                </li>
+                            </button>
+    
+                            <!--gun-->
+                            <button class="ms-2 button2">
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-gun"></i>
+                                </li>
+    
+                                <li class="list-inline-item">
+                                    Fire!!
+                                </li>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--Right Bar-->
+        <div class="fixed-top" style="margin-left: 59.5rem; margin-top: 5rem;">
+            <div class="col-sm-4">
+                <div class="card rounded" style="width: 20rem; margin-top: 2rem; margin-left: 3rem;">
+                    <div class="card-body">
+                        <h6>
+                            <strong>Akısınıza Ekleyin</strong>
+                            <span style="margin-left: 8rem;" ><i class="fa-solid fa-circle-info"></i></span>
+                        </h6>
+                        <hr>
+
+                        <div class="row">
+
+                            <!--images-->
+                            <div class="col-sm-2">
+                                <img class="img" src="https://picsum.photos/id/37/200/300" alt="pic1">
+                                <img class="img mt-3" src="https://picsum.photos/id/98/200/300" alt="pic1">
+                                <img class="img mt-3" src="https://picsum.photos/id/90/200/300" alt="pic1">
+                            </div>
+
+                            <!--names-->
+                            <div class="col-sm-5">
+                                <p class="name"><strong>CodeCraft</strong></p>
+                                <p style="margin-top: 3.5rem; margin-left: 1.5rem;"><strong>RedBull</strong></p>
+                                <p style="margin-top: 3.5rem; margin-left: 1.5rem;"><strong>Chess24</strong></p>
+                            </div>
+
+                            <!--buttons-->
+                            <div class="col-sm-5">
+                                <a href="#" class="link">
+                                    <button
+                                        style= "height: 35px;
+                                        width: 90px;
+                                        border-radius: 50px;
+                                        color: white;
+                                        background-color: #008ce9;
+                                        margin-top: 0.8rem;
+                                        margin-left: 0rem;
+                                        border: 1px solid #008ce9;">
+                                        + Takip Et
+                                    </button>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <button
+                                        style= "height: 35px;
+                                        width: 90px;
+                                        border-radius: 50px;
+                                        color: white;
+                                        background-color: #008ce9;
+                                        margin-top: 2.8rem;
+                                        margin-left: 0rem;
+                                        border: 1px solid #008ce9;">
+                                        + Takip Et
+                                    </button>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <button
+                                        style= "height: 35px;
+                                        width: 90px;
+                                        border-radius: 50px;
+                                        color: white;
+                                        background-color: #008ce9;
+                                        margin-top: 2.8rem;
+                                        margin-left: 0rem;
+                                        border: 1px solid #008ce9;">
+                                        + Takip Et
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card rounded" style="width: 20rem; margin-top: 2rem; margin-left: 3rem;">
+                    <div class="card-body">
+                        <h6>
+                            <strong>Bugunun En Cok Izlenenleri:</strong>
+                            <span style="margin-left: 2.5rem;">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+                        </h6>
+                        <hr>
+
+                        <ul class="list-inline">
+
+                            <li class="list-inline-item number p-0">
+                                <small><strong>1. The Six Morning Habits of Hight Perf... </strong></small>
+                                <p class="under-name">Peter Chroch How to be blabla...</p>
+                            </li>
+
+                            <li class="list-inline-item number p-0">
+                                <small><strong>2. Pray for our childeren and God </strong></small>
+                                <p class="under-name">Mehmet Gulselam: Aidiyet</p>
+                            </li>
+
+                            <li class="list-inline-item number p-0">
+                                <small><strong>3.How to Survive on Dominik </strong></small>
+                                <p class="under-name">Acun Ilıcalı 101</p>
+                            </li>
+                            
+                            <li class="list-inline-item number p-0">
+                                <small class="linkedin">
+                                    <strong>Linkedin Learning'de Daha Fazlasını</strong>
+                                    <strong style="margin-left: 6.5rem;">Goster</strong>
+                                </small>
+                            </li>
+
+                        </ul>                                      
+                    </div>
+                </div>
+
+                <ul class="list-inline ms-5 mt-3">
+                    <li class="list-inline-item">
+                        <a class="link2" href="#">
+                            Hakkinda
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item" style="margin-left: 1.5rem;">
+                        <a class="link2" href="#">
+                            Erisebilirlik
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item" style="margin-left: 1rem;">
+                        <a class="link2" href="#">
+                            Yardim Merkezi
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item" style="margin-left: 1rem; margin-top: 1rem;">
+                        <a class="link2" href="#">
+                            Gizlilik ve Kosullar
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item" style="margin-left: 1rem; margin-top: 1rem;">
+                        <a class="link2" href="#">
+                            Reklam ve Tercihler
+                        </a>
+                    </li>
+                    
+                    <br>
+
+                    <li class="list-inline-item" style="margin-left: 8.3rem; margin-top: 1rem;">
+                        <a class="link2" href="#">
+                            Reklam
+                        </a>
+                    </li>
+                    
+                    <br>
+
+                    <li class="list-inline-item" style="margin-top: 1rem;">
+                        <ul class="list-inline">
+                            <li class="list-inline-item rounded border">
+                                <img class="w-100" style="height: 40px;" src="images/link.jpeg" alt="brand">
+                            </li>
+                            <li class="list-inline-item">
+                                <small> Linkedin Coporotion 2023 <strong>'Oktay'</strong></small>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            <!--col-4 End-->
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
